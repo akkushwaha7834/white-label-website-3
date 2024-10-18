@@ -1,0 +1,120 @@
+@media (max-width:1399px) and (min-width:1200px) {
+
+    .navbar_wraper .login_btns a,
+    .navbar_wraper .pages ul li a {
+        color: black;
+        /* background-color: red; */
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width:1199px) and (min-width:1024px) {
+
+    .navbar_wraper .login_btns a,
+    .navbar_wraper .pages ul li a {
+        color: black;
+        /* background-color: red; */
+        font-size: 12px;
+        padding: 5px 7px;
+    }
+
+    .banner_content {
+        padding: 150px 0px;
+    }
+}
+
+@media (max-width:1024px) and (min-width:992px) {
+    .head .title {
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .blog_head h3{ 
+        font-size: 19px;
+}
+
+    .navbar_wraper .login_btns a,
+    .navbar_wraper .pages ul li a {
+
+        font-size: 12px;
+
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 14px;
+    }
+
+    .animated-button {
+
+        padding: 9px 29px;
+    }
+}
+
+@media (max-width:991px) {
+
+    .navbar_wraper .login_btns .navbar_wraper .pages {
+        display: none;
+    }
+
+    .why_choose .why_choose_box::before,
+    .why_choose .why_choose_box::after {
+        display: none !important;
+    }
+    .newsleter .form-subscribe .btn {
+        border-radius: 25px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .newsleter {
+        margin-bottom: 0px;
+        width: 100%;
+        border-radius: 50px 50px 0px 0px;
+    }
+ 
+    .newsleter .form-subscribe .form-control{
+        border-radius: 25px !important;
+        width: 100%;
+    }
+
+}
+
+@media (max-width:575px) {
+    .banner_content {
+        padding: 100px 0px;
+    }
+
+    .head .title {
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .banner_content {
+        padding: 100px 0px;
+        
+    }
+    .form-subscribe .input-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .newsleter .form-subscribe .btn {
+        border-radius: 25px;
+        margin-top: 10px;
+    }
+    .newsleter .form-subscribe .form-control{
+        border-radius: 25px !important;
+        width: 100%;
+    }
+    .blog_img img {
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .blog_img {
+        width: 100%  !important;
+        height: 100% !important;
+    }
+    .blog_head{
+        flex-direction: column;
+    }
+
+}
